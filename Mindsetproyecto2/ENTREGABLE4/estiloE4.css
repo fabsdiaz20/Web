@@ -1,0 +1,25 @@
+.ejer1{
+	background-color: #FFF3F0;
+}
+.ejer2{
+	background-color: #FFF3F0;
+}
+.ejer3{
+    background-color: #FFF3F0;
+}
+.ejer4{
+	background-color: #FFF3F0;
+}
+.menu{
+	background-color: #4D4D4D;
+
+}
+.titulo{
+	color: white;
+}
+a.destacado{
+	color: white;
+}
+a:hover.destacado{
+	color: pink;
+}

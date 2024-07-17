@@ -1,0 +1,85 @@
+ body {
+            background: #F3E8EC;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .formulario {
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 40%;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 10px 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .formulario h1, .formulario h3 {
+            text-align: center;
+            color: black;
+        }
+
+        .formulario h1 {
+            border-bottom: 1px solid silver;
+            padding-bottom: 0.5rem;
+        }
+
+        .formulario h3 {
+            padding-top: 0.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid silver;
+        }
+
+        .formulario form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .Usuario, .Reg {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .Usuario label, .Reg label {
+            color: #827A7E;
+            font-size: 1rem;
+        }
+
+        .Usuario input, .Reg input, .Reg select {
+            padding: 0.5rem;
+            font-size: 1rem;
+            border: 1px solid #827A7E;
+            border-radius: 5px;
+            outline: none;
+            margin-top: 0.5rem;
+        }
+
+        .Usuario input:focus, .Reg input:focus, .Reg select:focus {
+            border-color: #333;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 0.75rem;
+            background: #F3E8EC;
+            border: 1px solid white;
+            border-radius: 25px;
+            font-size: 1rem;
+            color: #333;
+            cursor: pointer;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            border-color: #F3E8EC;
+        }
+
+        .ValidationText {
+            margin-top: 0.5rem;
+            color: red;
+            font-size: 0.875rem;
+        }

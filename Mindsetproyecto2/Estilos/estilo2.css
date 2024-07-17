@@ -1,0 +1,86 @@
+.imgpreguntas {
+    background-color: black;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.imgpreguntas img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.botoimagenes {
+    position: relative;
+    z-index: 1;
+    margin-top: 10px; 
+}
+
+.botoimagenes input[type="button"] {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+section{
+    background:  #F3E8EC;
+    font-size: 20px;
+    font-family: optima;
+    padding: 100px;
+    float: right;
+
+}
+aside{
+    background:  #F3E8EC;
+    width: 40%;
+    height: 20%;
+    padding: 45px;
+    float: right;
+}
+.tab2{
+    height: 40%;
+    padding: 50px;
+}
+.final{
+    font-family: cambria;
+    font-size: 10 px;
+}
+.caja{
+    background:  #F3E8EC;
+}
+
+.caja1{
+    background: #F5E4DF ;
+    box-shadow: rgb(150,150,150) 5px 5px 20px;
+}
+.caja2{
+    background: #E4D4D0;
+  padding: 10px;
+
+}
+.formulario{
+    width: 29%;
+}
+.tab7{
+    background: #FFF3F0;
+
+.botones{
+  background-color: #E7BFB5 ;
+  color: black;
+  padding: 5px 100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ box-shadow: 0px 2px 4px ;
+}
+
+
+
